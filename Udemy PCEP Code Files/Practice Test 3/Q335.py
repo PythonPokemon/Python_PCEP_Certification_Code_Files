@@ -1,11 +1,10 @@
+"""
+ändere day = 'tag' zum teste
+"""
 
-# day = input('Enter the day of the week:')
-day = 'Friday'       # Just for convenience
-# day = 'Wednesday'  # 8
-# day = 'Thursday'   # 10
-# day = 'Saturday'   # 13
-# day = 'Sunday'.    # 23
-discount = 3
+day = 'Wednesday'       # such dir einen tag zum testen aus und schau ob unten die entsprechenden punkte ausgegeben werden.
+
+discount = 0            # startpunkte
 
 if day == 'Wednesday':
     discount += 5
@@ -18,4 +17,4 @@ elif day == 'Sunday':
 else:
     discount += 2
 
-print(discount)  # 5
+print(discount)         # ausgabe, der endpunkte!

@@ -1,5 +1,13 @@
+"""
+💡 Mini-Erklärung für Teilnehmer
 
-# First execute the following to create the needed file:
+„argv ist wie eine kleine Einkaufsliste der Befehlszeilenargumente. 
+Das erste Element ist immer der Name der Datei, alle weiteren sind die zusätzlichen Wörter, die du beim Start mitgibst.
+"""
+
+
+
+# führe erst den import aus, in klammern!
 code = '''
 from sys import argv
 print(argv[0])
@@ -7,8 +15,4 @@ print(argv[0])
 with open('index.py', 'w') as f:
     f.write(code)
 
-# In Terminal:
-# python index.py Hello
-"""
-index.py
-"""
+

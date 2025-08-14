@@ -1,4 +1,21 @@
+"""
+Erklärung
+1. Unterschied: Zahlen x Zahlen vs. String x Zahl
+Zahlen x Zahlen → Mathematische Multiplikation
 
+String x Zahl → String wird so oft wiederholt, wie die Zahl angibt
+-------------------------------------------------------------------
+Regeln in Python
+-------------------------------------------------------------------
+✅ erlaubt:
+'Hi' * 4   # 'HiHiHiHi'
+4 * 'Hi'   # 'HiHiHiHi'  (Reihenfolge egal)
+-------------------------------------------------------------------
+❌ nicht erlaubt:
+'Hi' * 2.5  # TypeError (float geht nicht)
+→ Hier müsste man erst int(2.5) machen.
+-------------------------------------------------------------------
+"""
 x1 = '23'
 y1 = 7
 z1 = x1 * y1
