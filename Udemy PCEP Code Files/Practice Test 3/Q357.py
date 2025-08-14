@@ -33,7 +33,7 @@ def func(x, y):
     if x == y:
         return x
     else:
-        return func(x, y-1)
+        return func(x, y-1) # hier ist der knackpunkt! y-1 sagt unten bei den argumenten 3 das für y steht== runterzählen
         
 
 

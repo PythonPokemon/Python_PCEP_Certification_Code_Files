@@ -1,8 +1,7 @@
 
 try:
-    # number = input('Please enter a number\n')
-    number = 'one'
-    zahl = int(number)
+    number = 'one'      # teste statt 'one' | 1
+    zahl = int(number)  # da hier string zu int umgewandelt wird!
     print('Perfekt!')
 except:
     print('Something went wrong.')
