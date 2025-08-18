@@ -1,4 +1,6 @@
-
+"""
+neuer Index wird hinzugefügt!
+"""
 def func(item):
     item += [1]   # [1, 2, 3, 4] + [1] -> [1, 2, 3, 4, 1]
 
