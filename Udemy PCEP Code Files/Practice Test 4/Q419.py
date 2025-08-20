@@ -1,4 +1,6 @@
-
+"""
+es kommit nichts da immer gerade rest 0 ist
+"""
 num = 42
 
 # Code-1

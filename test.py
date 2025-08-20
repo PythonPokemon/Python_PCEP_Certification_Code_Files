@@ -1,5 +1,5 @@
 """
-Letzte WIEDERHOLUNG: 314 | 4010
+Letzte WIEDERHOLUNG: 160 | 435
 -------------------
 Practice Test 2:
 238
@@ -9,9 +9,7 @@ Practice Test 2:
 -------------------
 Practice Test 3:
 304
-305
 309
-319
 -------------------
 Practice Test 4:
 

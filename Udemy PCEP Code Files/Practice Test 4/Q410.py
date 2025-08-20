@@ -1,5 +1,6 @@
 """
 .pop() entfernt das element auf dem index
+.remove() entfernt das element explizit
 """
 
 #Index  0  1  2   3   4   5   6   7
