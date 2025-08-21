@@ -1,8 +1,9 @@
 
-# order = int(input('Please enter the order value: '))
-# state = input('Please enter the state (as postal abbreviation): ')
-order, state = int('1700'), 'FL'  # Just for convenience
+
+
+order, state = int('1700'), 'FL'  # in order wird der wert 1700 gespeichert | in state 'FL'
 delivery = 0
+
 
 if state in ['NC', 'SC', 'VA']:
     if order <= 1000:
@@ -12,15 +13,15 @@ if state in ['NC', 'SC', 'VA']:
     else:
         delivery = 90
 else:
-    delivery = 50
-    print('1. delivery', delivery)      # 50
-if state in ['GA', 'WV', 'FL']:
-    if order > 1000:
-        delivery += 30
-        print('2. delivery', delivery)  # 80
-    if order < 2000 and state in ['WV', 'FL']:
-        delivery += 40
-        print('3. delivery', delivery)  # 120
+    delivery = 50                       # +50
+    print('1. delivery', delivery)      
+if state in ['GA', 'WV', 'FL']:         # FL enthalten
+    if order > 1000:                    # ja order 1700 ist größer 1000
+        delivery += 30                  # +30
+        print('2. delivery', delivery)  
+    if order < 2000 and state in ['WV', 'FL']:  # UND bedingung! | wenn 1.700 kleiner 2.000 ist UND 'FL' enthalten
+        delivery += 40                  # +40
+        print('3. delivery', delivery)  
     else:
         delivery += 25
-print(delivery)  # 120
+print(delivery)                         # 120 | 50 + 30 + 40 == 120
