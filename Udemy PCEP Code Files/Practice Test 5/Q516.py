@@ -18,5 +18,5 @@ print(sum(marks))  # 510
 print(len(marks))  # 6
 print(510 // 6)    # 85
 print(510 / 6)     # 85.0
-print(average)     # 85
-print(grade)       # B
+print(average)     # 85 | 510 geteilt durch 6
+print(grade)       # B  | da 85 zwischen 80 - 90 liegt!

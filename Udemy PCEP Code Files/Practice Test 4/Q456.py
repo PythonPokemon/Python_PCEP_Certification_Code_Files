@@ -1,6 +1,6 @@
 
 def func(a, b):
-    return a ** a
+    return a ** a   # potenz erwartet b als argument
 
 
 # print(func(2))

@@ -1,3 +1,6 @@
+"""
+division durch null ist nicht erlaubt.
+"""
 
 try:
     print(7 / 0)

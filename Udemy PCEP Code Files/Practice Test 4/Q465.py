@@ -1,18 +1,29 @@
 
 """
-try:
-    raise Exception
-except:
-    print("c")
-except BaseException:
-    print("a")
-except Exception:
-    print("b")
+Erklärung der Schlüsselbegriffe
+-------------------------------------------------------------------------------
+try: → der Block, in dem Fehler (Exceptions) auftreten können
+-------------------------------------------------------------------------------
+raise Exception → wirf eine Exception vom Typ Exception
+-------------------------------------------------------------------------------
+except <Typ>: → fängt Exceptions des angegebenen Typs
+-------------------------------------------------------------------------------
+Reihenfolge der except-Blöcke ist wichtig: Python prüft sie von oben nach unten
+-------------------------------------------------------------------------------
+Typ-Hierarchie der Exceptions
+BaseException
+ └── Exception
+      └── ...
+
+
+BaseException ist die Oberklasse aller Exceptions
+Exception ist eine Unterklasse von BaseException
+Alle Exceptions, die Exception erben, werden auch von BaseException abgefangen
+-------------------------------------------------------------------------------
 """
 # SyntaxError: default 'except:' must be last
 
-# This still does not make much sense,
-# but there would be no syntax error.
+
 try:
     raise Exception
 except BaseException:
