@@ -1,5 +1,5 @@
 """
-Letzte WIEDERHOLUNG: 160 | 551
+Letzte WIEDERHOLUNG: 160 | 
 -------------------
 Practice Test 2: ✅
 238
