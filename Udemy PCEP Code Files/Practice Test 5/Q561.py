@@ -1,3 +1,8 @@
+"""
+iteriert bis zur gesuchten, zeichenkette
+----------------------------------------
+"""
+
 
 for ch in "adam_smit@openedg.org":
     if ch == "@":
