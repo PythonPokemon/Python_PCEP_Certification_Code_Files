@@ -8,7 +8,7 @@ for i in range(3):
 print(dictionary)  # {'a': ('a',), 'b': ('b',), 'c': ('c',)}
 
 # for i in sorted(dictionary.keys()):
-for i in dictionary.keys():
+for i in dictionary.keys(): # i iteriert durch die dictionarys und merkt sich die keys
     k = dictionary[i]
     # print(k)  # ('a',) ('b',) ('c',)
     # print(k['0'])  # TypeError: tuple indices must be integers or slices, not str

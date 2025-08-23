@@ -18,9 +18,9 @@ cost_per_day = 1.59
 if ontime == 'n':
     days_rented += 1
 if day_rented == 'Sunday':
-    total = (days_rented * cost_per_day) * .7
+    total = (days_rented * cost_per_day) * .7 # 70%
 elif day_rented == 'Thursday':
-    total = (days_rented * cost_per_day) * .5
+    total = (days_rented * cost_per_day) * .5 # 50%
 else:
     total = (days_rented * cost_per_day)
 
