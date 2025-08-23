@@ -1,3 +1,9 @@
+"""
+einfache if else abfragbe
+wenn ein wert zwischen 65 -90 eingegeben wird landet er in den kategiren A - D
+alles unter 65 wird zu F
+"""
+
 
 # Letter Grade Converter
 grade = int(input('Enter a numeric grade:'))
