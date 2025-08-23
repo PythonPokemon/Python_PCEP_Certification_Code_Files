@@ -21,3 +21,4 @@ print(c.imag)        # 1.0 imaginär durch zuwesiung | c = 1j
 
 # Alternative Schreibweise
 print(type(0 + 1j))  # <class 'complex'>
+

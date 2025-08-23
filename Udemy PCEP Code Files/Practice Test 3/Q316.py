@@ -19,9 +19,9 @@ fruits3[1] = 'Orange'
 res = 0
 
 for i in (fruits1, fruits2, fruits3):
-    if i[0] == 'Cherry':
+    if i[0] == 'Cherry':    # fruits1 , fruits2
         res += 1
-    if i[1] == 'Orange':
+    if i[1] == 'Orange':    # fruits3
         res += 10
 
 print(res)          # 12

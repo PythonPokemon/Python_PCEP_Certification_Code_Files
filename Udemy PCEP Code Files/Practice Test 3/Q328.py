@@ -13,6 +13,6 @@ c -a = 2
 99-97= 2
 ---------------------------------------------------------------------------------------------
 """
-print(ord('c') - ord('a'))  # 2
+print(ord('c') - ord('a'))  # 2 | 99 - 97 == 2
 print(ord('c'))             # c entspricht decimal 99
 print(ord('a'))             # a entspricht decimal 97

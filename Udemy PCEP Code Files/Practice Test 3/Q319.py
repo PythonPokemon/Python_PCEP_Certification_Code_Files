@@ -7,7 +7,7 @@ Dann wird die Länge der Liste minus diesem Wert berechnet. länge 3 - letztes e
 Ist das Ergebnis 0, ergibt die Multiplikation eines Tuples mit 0 ein leeres Tuple. So entsteht ().“
 ---------------------------------------------------------------------------------------------------
 """
-nums = [1, 2, 3]
+nums = [1, 2, 3]        # liste, länge 3
 data = ('Peter',) * (len(nums) - nums[::-1][0])
 print(data)  # ()
 

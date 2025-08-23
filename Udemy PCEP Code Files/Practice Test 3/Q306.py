@@ -3,11 +3,11 @@ Kurzfassung
 data enthält verschiedene Datentypen: Zahl, Dictionary, Tuple, leeres Tuple, Set, Liste.
 Eine Schleife prüft den Typ jedes Elements und gibt dafür Punkte:
 
-list → +1
-tuple → +10
-set → +100
-dict → +1000
-alles andere → +10000
+list    → +1
+tuple   → +10
+set     → +100
+dict    → +1000
+Rest    → +10000
 
 Am Ende ergibt die Summe 11121.
 --------------------------------------------------------------------------------------------
@@ -39,7 +39,7 @@ Auswertung Schritt für Schritt:
 | --------- | -------- | ----- | ------ | ------------- |
 """
 
-
+#werte  1   2   3     4   5      6
 data = [1, {}, (2,), (), {3}, [4, 5]]   # länge 6
 points = 0
 
@@ -63,7 +63,7 @@ for i in range(len(data)):
 
 
 """
-i geht also durch die liste von data und prüft jeden einzelen index von links angefanfen, welchem daten typ es entspricht in der if,else abfrgae
+i geht also durch die liste von data und prüft jeden einzelen index von links angefanfen, welchem daten typ es entspricht in der if,else abfragae
 und vergiebt dementsprechend punkte und so in jeder weiteren schleife bis alle indizes durchlaufen sind, dann werde die punkte ausgegebn.
 und die datentypen ausgegeben, das sich auf den Indizes befindet bsp. 1 'class' int usw.
 """
