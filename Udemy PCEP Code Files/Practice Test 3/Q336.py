@@ -17,4 +17,5 @@ def func(x):
 
 
 func(2)
-print(y)  # 4
+print(y)  # 4 | 2 * 2 == 4
+

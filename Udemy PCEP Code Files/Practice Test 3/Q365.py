@@ -5,5 +5,6 @@ try:
     print('Perfekt!')
 except:
     print('Something went wrong.')
+    
 
 # zahl = int('one')  # ValueError: ...

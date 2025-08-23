@@ -12,5 +12,5 @@ vals.append(1)
 print(nums)  # [1]
 print(vals)  # [1]
 
-print(id(nums))
-print(id(vals))
+print(id(nums)) # 2231992082624 gleiche Speicherdresse
+print(id(vals)) # 2231992082624

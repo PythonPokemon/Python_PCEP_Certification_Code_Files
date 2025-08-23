@@ -2,8 +2,10 @@
 start -1
 stop -2
 step keine
-
-da stop hinter -1 liegt fängt die .len() methode garnicht erst an zu zählen und bleibt bei null!
+---------------------------------------------------------------------------
+da stop hinter -1 liegt fängt die .len() methode garnicht erst an zu zählen
+und bleibt bei null!
+---------------------------------------------------------------------------
 """
 
 

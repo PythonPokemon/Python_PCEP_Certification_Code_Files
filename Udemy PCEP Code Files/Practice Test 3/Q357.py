@@ -36,6 +36,5 @@ def func(x, y):
         return func(x, y-1) # hier ist der knackpunkt! y-1 sagt unten bei den argumenten 3 das für y steht== runterzählen
         
 
-
-print(func(0, 3))  # ruft sich immer wider erneut auf, solange y nicht x entspricht! == 0
+print(func(0, 3))           # ruft sich immer wider erneut auf, solange y nicht x entspricht! == 0
 

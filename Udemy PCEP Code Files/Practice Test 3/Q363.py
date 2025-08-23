@@ -1,7 +1,7 @@
 """
- bei Tuples suchst du immer nach dem Wert, nicht nach einem Index.
+ bei Tuples suchst du immer nach dem Positions/Wert, nicht nach einem Index.
 """
-
+# Pos: 0  1  2
 foo = (1, 2, 3)
 print(foo.index(1)) # 0 | gibt an, wo bzw, an welcher position, sich der expliziter wert befindet in der tupel, nicht der index !
 print(foo.index(2)) # 1 | gibt an, wo bzw, an welcher position, sich der expliziter wert befindet in der tupel, nicht der index !
