@@ -9,8 +9,8 @@ Operator	Bedeutung
 ^	            XOR - genau ein Bit ist 1
 
 Hier behandeln wir Zahlen als Binärwerte, z.B. 
-1 = 0b1, 
-0 = 0b0.
+1 = 0b1 == binär 1 
+0 = 0b0 == binär 0
 """
 a = 1  # 0b1
 b = 0  # 0b0
@@ -22,6 +22,6 @@ e = a ^ b  # 0b1 XOR 0b0 = 0b1 → 1
 print(c + d + e)  # 0 + 1 + 1 = 2
 
 
-print(1 & 0)      # 0 
-print(1 | 0)      # 1 
-print(1 ^ 0)      # 1
+print(1 & 0)      # AND 0 
+print(1 | 0)      # OR  1 
+print(1 ^ 0)      # XOR 1

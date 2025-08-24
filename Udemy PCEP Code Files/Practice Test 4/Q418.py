@@ -43,6 +43,6 @@ Wichtig: Operator-Priorität in Python
 a = eval('7')     # Wandelt den String '7' in die Zahl 7 um
 
 print((-a) ** 2)  #  49 | Variante 1:Klammern zuerst negieret → -a = -7,  Dann Potenziert: (-7) ** 2 = 49 
-print(-(a) ** 2)  # -49 | Variante 2: Potenz zuerst 7 * 7 == 49, Dann unäres Minus ==-49
-print(-a ** 2)    # -49 | Variante 3: Potenz zuerst 7 * 7 == 49, Dann unäres Minus ==-49
-print(-(a ** 2))  # -49 | Variante 4: Klammern machen explizit
+print(-(a) ** 2)  # -49 | Variante 2: Potenz zuerst 7 * 7 == 49, Dann unäres Minus == - 49
+print(-a ** 2)    # -49 | Variante 3: - 7 * 7 == - 49
+print(-(a ** 2))  # -49 | Variante 4: Potenz zuerst 7 * 7 == 49, Dann unäres Minus == - 49 (Klammern machen explizit) 

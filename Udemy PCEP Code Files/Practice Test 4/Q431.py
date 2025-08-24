@@ -14,8 +14,10 @@ Rang	    Operator(en)	        Beschreibung
 7	            and	                Logisches UND
 8	            or	                Logisches ODER
 -------------------------------------------------------------------------------------------------------
+-ACHTUNG-
 True ist ein boolescher Wert, aber Python behandelt True automatisch als 1 in numerischen Berechnungen.
 False würde automatisch als 0 behandelt werden.
+
 Berechnung
 -------------------------------------------------------------------------------------------------------
 Division zuerst (/ hat höhere Priorität als +)

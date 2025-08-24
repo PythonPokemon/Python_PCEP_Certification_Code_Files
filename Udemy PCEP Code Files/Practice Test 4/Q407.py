@@ -38,4 +38,4 @@ for d in data:
 print(res)                       # res = 0 + 4 + 2 = 6
 
 print(data)                      # {1: 4, '1': 2}
-print({1: 7, 1.0: 23, 1.1: 42})  # {1: 23, 1.1: 42}
+print({1: 7, 1.0: 23, 1.1: 42})  # {1: 23, 1.1: 42} | der vorherige 1: 7, wird durch 1.0: 23, ersetzt
