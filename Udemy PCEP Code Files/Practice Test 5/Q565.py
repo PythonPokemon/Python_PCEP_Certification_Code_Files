@@ -16,9 +16,9 @@ except: am Ende wird nur erreicht, wenn vorher kein Block passt
 
 try:
     raise Exception     # Wir erzeugen absichtlich eine Exception
-except BaseException:
+except BaseException:   # Oberste Klasse fängt alles ab
     print('1')
-except Exception:
+except Exception:       # Subklasse von: BaseException
     print('2')
 except:
     print('3')

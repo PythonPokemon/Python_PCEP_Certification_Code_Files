@@ -31,9 +31,9 @@ Addition mit None ist nicht erlaubt
 
 def func(x):
     if x % 2 == 0:
-        return 1
+        return 1            # wenn gerade rest 1
     else:
-        return
+        return              # wenn ungerade == None
 
-print(func(func(2)))        # gibt 'None' aus!
+print(func(func(2)))        # gibt 'None' aus! | weil 2 / 2 == 0 rest 0
 print(func(func(2)) + 1)    # TypeError: ...

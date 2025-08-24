@@ -1,6 +1,7 @@
 """
 'index' 0, iteriert durch 'productIdList'
-solange es kleiner 10 ist, sollen die werte die 'index' in sich zwischen speichert während der iteration ausgegeben werden.
+solange es kleiner 10 ist, sollen die werte die 'index' in sich zwischen speichert 
+während der iteration ausgegeben werden.
 wenn 'index' den wert 6 entspricht soll abgebrochen werden
 ansonsten weiter iterieren und bei jedem durchlauf den wert von 'index' +1 erhöhen
 """
