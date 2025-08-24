@@ -10,7 +10,7 @@ Practice Test 3: ✅ | 76%
 Practice Test 4: ✅ | 83%
 
 -------------------
-Practice Test 5: ✅
+Practice Test 5: ✅ | 83%
 
 -------------------
 Practice Test 6: ✅

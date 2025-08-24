@@ -6,7 +6,7 @@ weil bei minus zählung man von rechts beginnt!
 """
 
 data = (1, 2, 3, 4)
-data = data[-2:-1]  # weist data die eine tupel beinhalte
+data = data[-2:-1]  # weiß data die eine tupel beinhalte
 print(data)  # (3,)
 data = data[-1]
 print(data)  # 3

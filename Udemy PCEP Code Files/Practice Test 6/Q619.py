@@ -8,7 +8,7 @@ def func(n):
 
 
 
-for x in func(2):           #  funktionsaufruf mit parameter angabe == 2 == **
+for x in func(2):           #  funktionsaufruf mit parameter angabe 2 == **
     print(x, end='')        # da ** verdoppelt wird == ****
 
 print()

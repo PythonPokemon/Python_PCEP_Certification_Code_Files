@@ -10,7 +10,7 @@ data['2'] = [1, 2]
 data['1'] = [3, 4]
 
 for i in data.keys():           # i iteriert duch data's keys
-    print(data[i][1], end=' ')  # ausgabe aus data in i jeweils dd
+    print(data[i][1], end=' ')  # ausgabe aus data in i jeweils Index[1], aber hintereinander, wegen dem ausdruck: end=' ' == 24
 
 print()
 print(data)  # {'2': [1, 2], '1': [3, 4]}

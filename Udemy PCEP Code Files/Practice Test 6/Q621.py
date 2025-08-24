@@ -23,7 +23,7 @@ Nach func(): global x bleibt 1
 """
 
 def func():
-    print(x + 1, end=' ')  # greift auf globale x zu
+    print(x + 1, end=' ')  # greift auf globale x zu, ohne zeilenumbruch
 
 x = 1
 func()   # 2
