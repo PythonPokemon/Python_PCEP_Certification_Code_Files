@@ -1,3 +1,22 @@
+"""
+Frage 243
+Übersprungen
+Q355
+
+The meaning of the keyword parameter is determined by:
+
+
+
+its connection with existing variables
+
+its position within the argument list
+
+its value
+
+Richtige Antwort
+the argument's name specified along with its value
+"""
+
 
 def my_function(b=7, a=11):
     print(a, b)

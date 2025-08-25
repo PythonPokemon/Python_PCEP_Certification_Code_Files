@@ -1,3 +1,17 @@
+"""
+Q311
+
+Which of the following function definition does not return any value?
+
+
+
+A function that converts an uppercase letter to lowercase.
+
+A function that returns a random integer from 1 to 100.
+
+Richtige Antwort
+A function that prints integers from 1 to 100.
+"""
 
 # A function that prints integers from 1 to 100:
 def f1():

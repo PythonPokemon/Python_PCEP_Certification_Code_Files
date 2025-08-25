@@ -1,3 +1,13 @@
+"""
+Frage 248
+Übersprungen
+Q233
+
+Which of the following statements is false?
+Richtige Antwort
+The value may not be used outside functions.None
+"""
+
 
 # The None value can be assigned to variables.
 x = None
