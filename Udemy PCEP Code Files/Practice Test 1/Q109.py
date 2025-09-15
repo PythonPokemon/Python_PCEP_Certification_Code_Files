@@ -1,4 +1,13 @@
+"""
+Frage 81
+Übersprungen
+Q109
 
+What is the expected output of the following code?
+--------------------------------------------------
+Richtige Antwort
+[4, 3]
+"""
 list1 = [1, 3]
 list2 = list1
 list1[0] = 4

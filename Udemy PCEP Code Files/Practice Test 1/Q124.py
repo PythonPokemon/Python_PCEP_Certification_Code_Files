@@ -1,8 +1,26 @@
+"""
+Frage 117
+Übersprungen
+Q124
 
-# in = 'Hello'  # SyntaxError: invalid syntax
-# Does not work because "in" is a python keyword
-# for the membership operator:
-print(7 in [1, 4, 7, 11])  # True, weil 7 in der Liste enthalten ist, es wird also geprüft, ob 7 in der Liste enthalten ist
+Which of the following variable names is illegal?
+
+
+
+In
+
+IN
+
+in_
+
+Richtige Antwort
+in  
+"""
+
+# in = 'Hello'  # SyntaxError: invalid syntax == weil schlüsselwort
+# in ist ein Schlüsselwort in Python
+
+print(4 in [1, 4, 7, 11])  # True, weil 7 in der Liste enthalten ist, es wird also geprüft, ob 7 in der Liste enthalten ist
 
 # Those work because python is case sensitiv
 In = 'Hello'

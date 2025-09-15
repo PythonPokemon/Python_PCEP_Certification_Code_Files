@@ -1,4 +1,13 @@
+"""
+Frage 69
+Übersprungen
+Q501
 
+A built-in function is a function which ...
+-----------------------------------------------------
+Richtige Antwort
+comes with Python, and is an integral part of Python.
+"""
 # To print out the built-in functions:
 for i in dir(__builtins__):
     if i[0] != '_' and i[0].islower():

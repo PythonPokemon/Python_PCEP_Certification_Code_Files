@@ -1,4 +1,17 @@
 """
+Frage 22
+Übersprungen
+Q133
+
+What is the expected output of the following code?
+
+nums = [3, 4, 5, 20, 5, 25, 1, 3]
+nums.pop(1)
+print(nums)
+
+Richtige Antwort
+[3, 5, 20, 5, 25, 1, 3]
+--------------------------------------------------------------------------------------------------------------------
 .pop() in Python
 
 Bedeutung: Entfernt ein Element aus einer Liste an einer bestimmten Position (Index) und gibt dieses Element zurück.
@@ -12,7 +25,7 @@ Mit Index: .pop(index) entfernt das Element an dieser Position (Index beginnt be
 | `.remove(wert)`    | Erster Treffer des Werts |       ❌ Nein     |       `ValueError`            |
 | `del liste[index]` | Index                    |       ❌ Nein     |       `IndexError`            |
 | `del liste`        | Ganze Variable           |       ❌ Nein     |           -                   |
-
+--------------------------------------------------------------------------------------------------------------------
 
 """
 

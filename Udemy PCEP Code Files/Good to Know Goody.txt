@@ -1,0 +1,29 @@
+
+Skalar, Vektor, Matrix, Tensor sind keine Datenformate in Python, sondern mathematische Konzepte (Arten von Datenstrukturen), 
+die in Python durch verschiedene Bibliotheken (z. B. list, tuple, numpy.ndarray, torch.Tensor) dargestellt werden können.
+
+🔹 Skalar
+Einzelner Wert (z. B. 5 oder 3.14)
+Dimension: 0D
+
+🔹 Vektor
+Liste von Werten in einer Reihe (z. B. [1, 2, 3])
+Dimension: 1D
+
+🔹 Matrix
+Tabelle von Werten (z. B. [[1, 2], [3, 4]])
+Dimension: 2D
+
+🔹 Tensor  3D
+Verallgemeinerung von Skalar, Vektor und Matrix auf höhere Dimensionen
+
+Beispiele:
+Skalar = Tensor 0. Ordnung
+Vektor = Tensor 1. Ordnung
+Matrix = Tensor 2. Ordnung
+
+3D-Tensor: Sammlung mehrerer Matrizen, z. B. für Farbbilder ([height, width, channels])
+
+👉 In Python:
+Standardmäßig kannst du Listen (list) oder Tupel (tuple) nutzen.
+Für Mathematik/ML werden meist NumPy (numpy.array) oder PyTorch (torch.Tensor) genutzt, da sie effizienter und für große Daten optimiert sind.

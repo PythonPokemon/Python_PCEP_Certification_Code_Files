@@ -1,12 +1,20 @@
 """
-Detaillierte Erklärung zu ** (Potenzoperator) in Python
+Frage 208
+Übersprungen
+Q149
+Which of the following statements are true?
+(Select two answers)
 
-1. Was macht **?
-** ist der Exponentationsoperator (Potenz).
-a ** b bedeutet: "a hoch b", also "a potenziert mit b".
+Richtige Auswahl
+The ** operator uses right-sided binding.
+Erklärung
+The ** operator in Python uses right-sided binding, meaning that when there are multiple ** operators in an expression, the rightmost one is evaluated first. This is important to consider when working with exponentiation operations in Python.
 
-Beispiel:
-2 ** 3   |  2 hoch 3 = 2 * 2 * 2 = 8
+Richtige Auswahl
+The right argument of the % operator cannot be zero.
+Erklärung
+In Python, when using the % operator for the modulo operation, the right argument (the divisor) cannot be zero. Attempting to perform modulo division by zero will result in a ZeroDivisionError.
+
 ---------------------------------------------------------------
 Schritt-für-Schritt Auswertung von 4 ** 3 ** 2
 

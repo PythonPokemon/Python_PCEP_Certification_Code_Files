@@ -1,3 +1,12 @@
+"""
+Frage 169
+Übersprungen
+Q205
+Which of the following statements is false?
+
+Richtige Antwort
+The result of the / operator is always an integer value.
+"""
 
 # "Multiplication precedes addition." is true:
 print(3 + 4 * 5)    # 23

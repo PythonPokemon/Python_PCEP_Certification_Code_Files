@@ -1,4 +1,13 @@
 """
+Frage 75
+Übersprungen
+Q152
+
+What is the output of the following snippet?
+----------------------------------------------------------------------------------------------------------------
+Richtige Antwort
+two
+----------------------------------------------------------------------------------------------------------------
 | Schlüssel | Wert      |
 | --------- | --------- |
 | `'one'`   | `'two'`   |
@@ -16,14 +25,14 @@ range(3) erzeugt die Zahlen 0, 1, 2 → drei Schleifendurchläufe.
 print(v)
 v = dictionary[v]
 Du gibst den aktuellen Wert von v aus und aktualisierst v mit dem Wert, der im Dictionary zum Schlüssel v steht.
-
+----------------------------------------------------------------------------------------------------------------
 4. Schritt-für-Schritt Ablauf:
 | Schleifendurchlauf | `v` vor print | Ausgabe `print(v)` | `v = dictionary[v]`          |
 | ------------------ | ------------- | ------------------ | ---------------------------- |
 | 1 (k=0)            | `'two'`       | two                | dictionary\['two'] = 'three' |
 | 2 (k=1)            | `'three'`     | three              | dictionary\['three'] = 'one' |
 | 3 (k=2)            | `'one'`       | one                | dictionary\['one'] = 'two'   |
-
+----------------------------------------------------------------------------------------------------------------
 """
 
 dictionary = {'one': 'two', 'three': 'one', 'two': 'three'}  

@@ -1,4 +1,12 @@
 """
+Frage 127
+Übersprungen
+Q126
+The 0o prefix means that the number after it is denoted as:
+
+Richtige Antwort
+octal
+------------------------------------------------------------------------------------
 Erklärung
 0o ist das Präfix in Python, das eine Oktalzahl (Basis 8) kennzeichnet.
 10 ist also nicht „zehn“ im Dezimalsystem, sondern 1×8¹ + 0×8⁰ = 8 im Dezimalsystem.

@@ -1,4 +1,16 @@
 """
+Frage 126
+Übersprungen
+Q140
+isalnum() checks if a string contains only letters and digits, and this is:
+
+Richtige Antwort
+A method
+
+Erklärung
+The isalnum() method is a built-in method in Python that belongs to the string class. It is used to check if a string contains only alphanumeric characters (letters and digits). 
+As a method, it is called on a string object using dot notation, such as "string.isalnum()".
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .isalnum() in Python
 True → wenn alle Zeichen alphanumerisch sind:
 Buchstaben (A-Z, a-z)

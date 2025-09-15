@@ -1,3 +1,20 @@
+"""
+Frage 18
+Übersprungen
+Q237
+What is the expected output of the following code?
+
+x = 9
+y = 12
+result = x // 2 * 2 / 2 + y % 2 ** 3
+print(result)
+
+Richtige Antwort
+8.0
+--------------------------------------------------
+Therefore the order of operations here is:
+ ** -> // -> * -> / -> % -> +
+"""
 
 x = 9
 y = 12

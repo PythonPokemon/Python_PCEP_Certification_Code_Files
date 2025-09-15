@@ -1,4 +1,13 @@
+"""
+Frage 129
+Übersprungen
+Q441
+Which of the following enclose the input parameters or arguments of a function?
 
+Richtige Antwort
+Parentheses
+-------------------------------------------------------------------------------
+"""
 # Parantheses enclose the input parameters of a function definition:
 def func(para1, para2):
     return para1 + para2

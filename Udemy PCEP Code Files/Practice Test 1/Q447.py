@@ -1,3 +1,13 @@
+"""
+Frage 179
+Übersprungen
+Q447
+The None keyword designates?
+
+Richtige Antwort
+a None value
+"""
+
 
 x = None
 print(x)  # None

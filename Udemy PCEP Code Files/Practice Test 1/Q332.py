@@ -1,4 +1,12 @@
+"""
+Frage 167
+Übersprungen
+Q332
+By which variable of the sys module can we access command line arguments?
 
+Richtige Antwort
+argv
+"""
 import sys
 print(sys.argv[0])  # The first index is the name of the file
 

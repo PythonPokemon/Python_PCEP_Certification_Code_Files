@@ -27,4 +27,4 @@ for z in x:         # z iteriert durch x
         print('z:', z)  # 1 -> 7 -> 9 -> 11
         res += z        # summiert nur Werte aus x, die nicht als Schlüssel in y existieren
 
-print(res)  # 29
+print(res)  # 29       == 1 + 7 + 9 + 11

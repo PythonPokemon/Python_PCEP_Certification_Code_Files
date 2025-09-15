@@ -1,3 +1,17 @@
+"""
+Frage 132
+Übersprungen
+Q457
+Select the true statements:
+(Select two answers)
+
+
+Richtige Auswahl
+You cannot use keywords as function names in Python
+
+Richtige Auswahl
+You cannot use keywords as variable names in Python
+"""
 
 # for = 7 # SyntaxError: invalid syntax
 # def for(): pass  # SyntaxError: invalid syntax

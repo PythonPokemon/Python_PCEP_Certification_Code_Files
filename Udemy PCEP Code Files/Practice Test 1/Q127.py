@@ -1,3 +1,18 @@
+"""
+Frage 65
+Übersprungen
+Q127
+
+What is the expected output of the following code if the user enters and ? 24
+
+x = input()
+y = input()
+print(x + y)
+-----------------------------------------------------------------------------
+Richtige Antwort
+24
+"""
+
 
 # x = input()
 # y = input()

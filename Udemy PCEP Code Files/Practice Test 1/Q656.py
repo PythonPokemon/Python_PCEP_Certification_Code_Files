@@ -1,4 +1,18 @@
+"""
+Frage 147
+Übersprungen
+Q656
+Which of the following statements are true?
+(Select two answers)
 
+
+Richtige Auswahl
+The return keyword forces the function's execution to terminate
+
+Richtige Auswahl
+The return keyword may cause the function to return a value
+
+"""
 # The return keyword forces the function's execution to terminate:
 def my_function():
     print("Hello")

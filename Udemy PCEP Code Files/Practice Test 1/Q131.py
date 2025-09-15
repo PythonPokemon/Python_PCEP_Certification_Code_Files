@@ -32,3 +32,6 @@ print(x, y[0],y[1],y[2])  # x == 3 und y index[0] == 1
 func(x, y)
 
 print(x, y[0])
+
+
+

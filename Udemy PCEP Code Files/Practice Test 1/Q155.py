@@ -1,3 +1,15 @@
+"""
+Frage 21
+Übersprungen
+Q155
+
+If a list passed into a function as an argument,
+deleting any of its elements inside the function using the instruction:del
+--------------------------------------------------------------------------
+Richtige Antwort
+will affect the argument
+
+"""
 
 my_list = [1, 2, 3]
 

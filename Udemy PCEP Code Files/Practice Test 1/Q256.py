@@ -1,3 +1,15 @@
+"""
+Frage 67
+Übersprungen
+Q256
+
+Which of the following lines properly starts a function using two parameters,
+both with zeroed default values?
+-----------------------------------------------------------------------------
+Richtige Antwort
+def fun(a=0, b=0):
+"""
+
 
 def fun(a=0, b=0):
     print(a, b)

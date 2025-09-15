@@ -1,3 +1,14 @@
+"""
+Frage 99
+Übersprungen
+Q557
+
+The print() function is an example of:
+--------------------------------------
+Richtige Antwort
+a Python built-in function
+"""
+
 
 built_ins = dir(__builtins__)
 c = 0
@@ -7,6 +18,7 @@ for i in built_ins:
         print(i, end=' ')
         if c % 10 == 0:
             print()
+            
 # abs all any ascii bin bool breakpoint bytearray bytes callable
 # chr classmethod compile complex copyright credits delattr dict dir divmod
 # enumerate eval exec exit filter float format frozenset getattr globals

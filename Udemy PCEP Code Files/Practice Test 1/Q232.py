@@ -1,4 +1,13 @@
+"""
+Frage 2
+Übersprungen
+Q232
 
+Which of the following function headers is correct?
+
+Richtige Antwort
+def func(a=1, b=1, c=2):
+"""
 def func(a=1, b=1, c=2):
     pass
 

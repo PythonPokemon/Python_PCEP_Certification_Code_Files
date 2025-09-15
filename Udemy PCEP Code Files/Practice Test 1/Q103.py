@@ -1,3 +1,8 @@
+"""
+What will be the output of the following code snippet?
+Richtige Antwort
+2 1
+"""
 
 x = 1
 y = 2

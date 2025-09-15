@@ -1,15 +1,20 @@
 """
-Das ist ein schönes kleines Beispiel, das drei Python-Konzepte auf einmal zeigt:
-Listen-/String-Slicing mit Schrittweite
-Generatoren mit yield
-Iteration mit for
 ------------------------------------------------------------------------------------
-data[::2] bedeutet:
+Frage 46
+Übersprungen
+Q141
 
-    Start: nicht angegeben → beginnt bei Index 0
-    Ende: nicht angegeben → geht bis zum Ende der Sequenz
-    Schrittweite = 2 → nimmt jedes zweite Zeichen
-    Beispiel: "abcdef"[::2] → ['a', 'c', 'e']
+What is the expected output of the following code?
+
+def func(data):
+    for d in data[::2]:
+        yield d
+ 
+for x in func('abcdef'):
+    print(x, end='')
+------------------------------------------------------------------------------------
+Richtige Antwort
+ace
 ------------------------------------------------------------------------------------
 yield bedeutet:
 
