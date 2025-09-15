@@ -1,4 +1,3 @@
-
 # ABC Video, DVD Rental Calculator
 
 # ontime = input('Was the video returned before 8pm? y or n').lower()
