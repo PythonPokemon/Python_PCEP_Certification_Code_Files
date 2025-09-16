@@ -1,7 +1,7 @@
 """
 nums bekommt eine leere liste
 nums wird vals zugewiesen, nun zeigt vals ebenfalls auf die lehre liste,
-wenn man alo veränderung an vals vornimmt passieren diese auch in nums,
+wenn man also veränderung an vals vornimmt passieren diese auch in nums,
 
 da beide jetzt die gleiche speicheradresse referenzieren!
 """
@@ -14,3 +14,8 @@ print(vals)  # [1]
 
 print(id(nums)) # 2231992082624 gleiche Speicherdresse
 print(id(vals)) # 2231992082624
+
+print(vals is nums) # True
+print(vals == nums) # True
+print(nums == vals) # True
+print(nums is vals) # True

@@ -1,5 +1,6 @@
 """
 immer wenn eine true or false möglichkeit besteht, ist es true!
+Immer wenn eine false and true möglichkeit besteht, ist es false!
 """
 z = 7
 y = 3

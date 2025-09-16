@@ -15,6 +15,6 @@ Wenn du ein Element ersetzen willst, musst du entweder eine Liste daraus machen 
 """
 
 
-data = (1,) * 3
-data[0] = 2  # TypeError: ...Tuples sind immutable → kein append, pop oder Zuweisung an Index möglich
+data = (1,) * 3 # Erzeugt ein Tuple mit drei Einsen: (1, 1, 1)
+data[0] = 2     # TypeError: ...Tuples sind immutable → kein append, pop oder Zuweisung an Index möglich
 print(data)

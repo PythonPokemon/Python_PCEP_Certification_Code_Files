@@ -16,7 +16,7 @@ Zahlenbeispiel angepasst, weil wir von Meilen auf Kilometer umgestellt haben
 💡 Mini-Erklärung für Teilnehmer
 
 „Die Funktion hole_name() fragt nach dem Namen und gibt ihn zurück.
-Die Funktion berechne_kalorien() rechnet Strecke × Kalorienrate pro Kilometer.
+Die Funktion berechne_kalorien() rechnet Strecke x Kalorienrate pro Kilometer.
 Am Ende geben wir den Namen und den berechneten Kalorienverbrauch aus.“
 """
 
@@ -38,4 +38,4 @@ burn_rate = 50
 biker = get_name()
 calories_burned = calc_calories(distance, burn_rate)
 print(biker + ', you burned about', calories_burned, 'calories.')
-# Peter, you burned about 37000 calories.
+# Peter, you burned about 2500 calories.

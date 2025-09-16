@@ -31,6 +31,6 @@ step muss negativ sein
 """
 
 
-print(len([i for i in range(0, -2)]))      # 0, da python nur automatisch hoch zähl wenn kein step definiert ist, aber nicht ins negative!
+print(len([i for i in range(0, -2)]))      # 0, da python nur automatisch hoch zählt wenn kein step definiert ist, aber nicht ins negative!
 print(len([i for i in range(0, -2, -1)]))  # 2 | 0, -1
 print(len([i for i in range(-2, 0)]))      # 2 | -2, -1

@@ -1,7 +1,7 @@
 """
 Kurzfassung
 Ein Dictionary speichert Schlüssel-Wert-Paare.
-data['x', 'y'] funktioniert nur, wenn der Schlüssel genau dieses Tupel ist.
+data['x', 'y'] funktioniert nur, wenn der Schlüssel genau dieses Tupel ist im dictionary {('x', 'y'): 1}.
 Einzelne Schlüssel müssen getrennt abgefragt werden: data['x'], data['y'].
 Man kann Tupel als Schlüssel verwenden: data = {('x', 'y'): 1} → dann funktioniert data['x', 'y'].
 ------------------------------------------------------------------------------------------------------------------------------
@@ -20,7 +20,7 @@ Sonst gibt Python einen KeyError.“
 
 
 data = {'x': 1, 'y': 2, 'z': 3}         # Tupel {'schlüssel': dazugehörigerWert}
-print(data['x', 'y'])                   # Python sucht genau den Schlüssel ('x', 'y') → existiert nicht → KeyError: | kommentiere es aus zum testen!
+# print(data['x', 'y'])                   # Python sucht genau den Schlüssel ('x', 'y') → existiert nicht → KeyError: | kommentiere es aus zum testen!
 
 print(data['x'], data['y'], data['z'])  # Einzelne Schlüssel können getrennt abgefragt werden ✅ 1 2 3
 
