@@ -9,7 +9,7 @@ try:
     a = len(first_prompt)
     # second_prompt = input("Enter the second value: ")
     second_prompt = "0"
-    b = len(second_prompt) * 2  # 0 * 2 == 0
+    b = len(second_prompt) * 2  # 1 * 2 == 2    | da "0" == 1 stringzeichen entspricht | "" == 0 leerer string
     print(a/b)                  # 8 / 2 == 4.0
 except ZeroDivisionError:
     print("Do not divide by zero!")

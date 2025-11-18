@@ -1,9 +1,8 @@
 """
-(0, 5, 2)
-
-0 der erste wert 0 ist der startwert zahlpunkt!
-5 ist die maximale länge bis wohin gezählt wird
-2 ist die schrittweite
+slices:         [start:end:step_sice]
+                    |   |
+inklusive------------   |
+excklusiv----------------
 """
 
 for n in range(1, 6, 1):

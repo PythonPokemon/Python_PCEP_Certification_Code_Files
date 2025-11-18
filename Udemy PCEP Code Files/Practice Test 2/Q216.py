@@ -23,6 +23,9 @@ Potenz     Dezimal    Binär
 2^3        8          00001000
 2^4        16         00010000
 
+bitshift operator
+<< multiplication   1 entspricht * 2  | bsp. 2 * 1  == 4
+>> division         1 entspricht // 2 | bsp. 7 // 2 == 3 (floor division, ergebnis wird nach unten abgerunden)
 """
 x = 1
 while x < 10:
