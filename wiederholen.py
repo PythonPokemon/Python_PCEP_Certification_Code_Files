@@ -328,10 +328,10 @@ print(vals)
 # keyword 'in' that's why Syntaxerror
 # try insteat with 'it'
 
-def fun(in=2, out=3):
-    return in * out
+# def fun(in=2, out=3):
+#     return in * out
 
-print(fun(3))
+# print(fun(3))
 #--------------------------------------------------------------------------------------------------------
 
 def fun(x):
@@ -424,13 +424,13 @@ Code hinter print(5/0) wird nie ausgeführt → logischer Fehler
 ZeroDivisionError wird nicht spezifisch behandelt → logischer Fehler
 """
 
-try:
-    print(5/0)
-    break
-except:
-    print("Sorry, something went wrong")
-except (ValueError, ZeroDivisionError):
-    print("Too bad...")
+# try:
+#     print(5/0)
+#     break
+# except:
+#     print("Sorry, something went wrong")
+# except (ValueError, ZeroDivisionError):
+#     print("Too bad...")
 
 #--------------------------------------------------------------------------------------------------------
 

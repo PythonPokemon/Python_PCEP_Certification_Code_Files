@@ -12,4 +12,4 @@ except TypeError:
 except:
     print("Booo!")
 
-print(0/0)  # ZeroDivisionError: division by zero
+#print(0/0)  # ZeroDivisionError: division by zero

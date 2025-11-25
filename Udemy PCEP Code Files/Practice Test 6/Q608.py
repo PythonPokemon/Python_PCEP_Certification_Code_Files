@@ -1,5 +1,5 @@
 
-data = ['abc', 'def', 'abcde', 'efg']
+data = ['abc', 'def', 'abcde', 'efg', 'zhuhz']
 print(max(data))  # gibt den letzten eintrag/wert aus == efg
 
 print(ord('a'))   # 97

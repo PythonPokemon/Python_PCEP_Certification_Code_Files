@@ -26,13 +26,13 @@ func(1) → 1 + 0 = 1
 func(2) → 2 + 1 = 3
                ---| plus addition des vorherigen ergebnisses
               |
-func(3) → 3 + 3 = 6
+func(3) → 3 + 2 + 1 = 6
                ---| plus addition des vorherigen ergebnisses
               |
-func(4) → 4 + 6 = 10
+func(4) → 4 + 3 + 2 + 1 = 10
                ---| plus addition des vorherigen ergebnisses
               |
-func(5) → 5 + 10 = 15
+func(5) → 5 + 4 + 3 + 2 + 1  = 15
 -------------------------------------------------------------------------------------------------------
 """
 

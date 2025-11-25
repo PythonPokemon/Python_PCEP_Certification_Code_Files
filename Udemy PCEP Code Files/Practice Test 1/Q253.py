@@ -1,7 +1,8 @@
 
-my_list = [x * x for x in range(5)]
+my_list = [x * x for x in range(5)] # multipliziert  die werte aus der liste mit sich selbst: 0,1,2,3,4
 print(my_list)  # [0, 1, 4, 9, 16]
 # The same without list comprehension:
+
 my_list = []
 for x in range(5):
     my_list.append(x * x)
