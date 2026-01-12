@@ -455,7 +455,7 @@ AttributeError
 
 try:
     # Code, der Fehler machen kann
-    result = 5 / 0
+    print(19/0)
 except (TypeError, ValueError, ZeroDivisionError, AttributeError):
     print("Einer dieser Fehler ist passiert.")
 
@@ -468,7 +468,7 @@ Die Klammern sind wie eine Box voller erlaubter Fehler.
 Wenn einer dieser Fehler passiert → springt Python in den except-Block.
 """
 #--------------------------------------------------------------------------------------------------------
-# die variable 'ch' soll nicht 'in' hi nach charakert suchen
+# die variable 'ch' soll nicht 'in' hi nach charakert suchen...
 # sondern das ist nur eine irreführung!
 # iat normale for i in range()
 for ch in "hi":
