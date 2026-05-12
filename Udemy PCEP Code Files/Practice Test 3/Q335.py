@@ -1,5 +1,5 @@
 """
-ändere day = 'tag' zum teste
+ändere day = 'tag' zum testen
 """
 
 day = 'Wednesday'       # such dir einen tag zum testen aus und schau ob unten die entsprechenden punkte ausgegeben werden.
