@@ -1,6 +1,6 @@
 """
 setzt startpunkt Index 2
-gibt 3 zeichenketten aus in Großbuchsraben
+.upper() gibt zeichenketten aus in Großbuchsraben
 """
 def get_names():
     names = ['Peter', 'Paul', 'Mary', 'Jane', 'Steve']

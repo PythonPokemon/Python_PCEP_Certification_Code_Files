@@ -1,4 +1,8 @@
-
+"""
+nur bei eiem string wird der inhalt nicht kopiert, sondern beide variablen verweisen auf die gleiche speicheradresse, 
+da strings unveränderlich sind (immutable) und somit nicht verändert werden können, 
+sondern immer eine neue speicheradresse zugewiesen bekommen, wenn sie verändert werden.
+"""
 str1 = 'Peter'
 str2 = str1[:]       # unnötig!
 # str2 = str1        # liste aus str1 wird str2 zugewiesen!
