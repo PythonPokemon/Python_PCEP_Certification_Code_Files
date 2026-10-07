@@ -63,7 +63,7 @@ for i in range(len(data)):
 
 
 """
-i geht also durch die liste von data und prüft jeden einzelen index von links angefanfen, welchem daten typ es entspricht in der if,else abfragae
-und vergiebt dementsprechend punkte und so in jeder weiteren schleife bis alle indizes durchlaufen sind, dann werde die punkte ausgegebn.
-und die datentypen ausgegeben, das sich auf den Indizes befindet bsp. 1 'class' int usw.
+i geht also durch die liste von data und prüft jeden einzelen index von links angefangen, welchem daten typ es entspricht in der if,else abfrage
+und vergiebt dementsprechend punkte und so in jeder weiteren schleife bis alle indizes durchlaufen sind, dann werden die punkte ausgegebn.
+und die datentypen ausgegeben, die sich auf den Indizes befinden bsp. 1 'class' int usw.
 """

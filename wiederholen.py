@@ -4,7 +4,7 @@ zum nachlesen
 """
 print("Python funktioniert!")
 
-# krasser stuff
+
 def beispiel(a, b=2, *args, **kwargs):
     print(a, b, args, kwargs)
 
